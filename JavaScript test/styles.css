@@ -1,0 +1,86 @@
+body {
+  background-color: grey;
+  text-align: center;
+}
+
+.dividers-results {
+  width: 30%;
+  min-height: 8em;
+  max-height: max-content;
+  border: solid;
+  position: relative;
+  left: 35%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divide-btn {
+  font-size: 1em;
+  font-weight: bold;
+  background-color: rgb(158, 245, 216);
+  position: relative;
+  left: 2%;
+  border-radius: 1em;
+}
+
+.divide-btn:hover {
+  background-color: green;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.result-content {
+  width: 80%;
+  left: 10%;
+  position: relative;
+  word-wrap: break-word;
+}
+
+textarea {
+  position: relative;
+  top: 5em;
+  resize: none;
+  width: 20%;
+  height: 8em;
+}
+
+.brackets-results {
+  background-color: rgb(37, 37, 37);
+  width: 20%;
+  color: white;
+  position: relative;
+  left: 40%;
+  height: 5em;
+  border: solid;
+  margin-top: 7%;
+}
+
+.result {
+  font-size: 1.5em;
+  position: relative;
+}
+
+.validate-brackets {
+  border-top: solid 2px black;
+  position: relative;
+  margin-top: 7%;
+}
+
+.submit-btn {
+  font-size: 1em;
+  font-weight: bold;
+  background-color: rgb(158, 245, 216);
+  position: relative;
+  left: 2%;
+  border-radius: 1em;
+}
+
+.submit-btn:hover {
+  background-color: green;
+  transform: scale(1.2);
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "chromeye",
+  "version": "1.0.0",
+  "description": "test",
+  "default": "index.html",
+  "dependencies": {
+    "parcel": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Anargyros Kantaras",
+  "license": "ISC"
+}
